@@ -1,33 +1,62 @@
 @media (max-width: 991.98px) {
-    .container {
-        padding: 0;
+    .main-title {
+        font-size: 4.25rem;
     }
-    .faq__body {
-        width: 100%;
-        transform: translateY(80px);
+    .hero-item__title {
+        font-size: 1.625rem;
     }
-    .faq-item {
-        min-height: 52px;
+    .hero-item__desc {
+        font-size: 1.375rem;
     }
 }
 
 @media (max-width: 767.98px) {
-    .faq__body {
-        transform: translateY(0);
+    .container {
+        padding: 0 40px;
     }
-    .faq__title {
-        font-size: 1.875rem;
+    .main-title {
+        font-size: 3.75rem;
+    }
+    .hero__desc {
+        margin-bottom: 70px;
+    }
+    .hero__body {
+        border-radius: 20px;
     }
 }
 
 @media (max-width: 575.98px) {
-    .faq__body {
-        padding: 25px;
+    .container {
+        padding: 0 15px;
     }
-    .faq__slogan {
-        font-size: 0.875rem;
+    .main-title {
+        font-size: 3.25rem;
     }
-    .faq__title {
-        font-size: 1.75rem;
+    .hero__desc {
+        font-size: 1.375rem;
+    }
+    .hero__body {
+        padding: 30px 30px 32px;
+    }
+    .hero__item:not(:last-child) {
+        margin-bottom: 38px;
+    }
+    .hero-item__title {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+    .hero-item__plus {
+        width: 24px;
+        height: 24px;
+    }
+    .hero-item__desc {
+        margin-bottom: 30px;
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 479.98px) {
+    .main-title {
+        font-size: 3rem;
     }
 }
