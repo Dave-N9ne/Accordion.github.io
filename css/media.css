@@ -1,6 +1,26 @@
 @media (max-width: 991.98px) {
+    .hero {
+        margin-bottom: 8vh;
+    }
+    .hero .container {
+        padding: 0;
+    }
+    .hero__img {
+        height: 100vh;
+    }
+    .main-title,
+    .hero__desc {
+        padding: 0 15px;
+    }
     .main-title {
         font-size: 4.25rem;
+    }
+    .hero__body {
+        margin-top: auto;
+        max-width: 100%;
+        border-radius: 0;
+        transform: translateY(0);
+        box-shadow: 0 0 0 0;
     }
     .hero-item__title {
         font-size: 1.625rem;
@@ -17,17 +37,14 @@
     .main-title {
         font-size: 3.75rem;
     }
-    .hero__desc {
-        margin-bottom: 70px;
-    }
-    .hero__body {
-        border-radius: 20px;
-    }
 }
 
 @media (max-width: 575.98px) {
     .container {
         padding: 0 15px;
+    }
+    .hero .container {
+        padding-top: 60px;
     }
     .main-title {
         font-size: 3.25rem;
@@ -36,7 +53,7 @@
         font-size: 1.375rem;
     }
     .hero__body {
-        padding: 30px 30px 32px;
+        padding: 30px 30px 0;
     }
     .hero__item:not(:last-child) {
         margin-bottom: 30px;
