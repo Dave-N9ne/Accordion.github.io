@@ -108,9 +108,6 @@ img {
 .hero-item__label {
     padding-bottom: 48px;
 }
-.hero__item:last-child > .hero-item__label.active {
-    padding-bottom: 48px;
-}
 .hero-item__title {
     max-width: 790px;
     font-weight: 800;
