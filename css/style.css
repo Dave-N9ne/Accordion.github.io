@@ -63,8 +63,7 @@ img {
     inset: 0;
     z-index: -1;
 }
-.main-title,
-.hero__desc {
+.hero__narration {
     text-align: center;
 }
 .main-title {

@@ -1,26 +1,35 @@
 @media (max-width: 991.98px) {
     .hero {
-        margin-bottom: 8vh;
+        margin-bottom: 16vh;
+        min-height: initial;
+        position: static;
     }
     .hero .container {
         padding: 0;
     }
-    .hero__img {
-        height: 100vh;
-    }
-    .main-title,
-    .hero__desc {
-        padding: 0 15px;
+    .hero__narration {
+        padding: 60px 15px 100px;
+        position: relative;
     }
     .main-title {
         font-size: 4.25rem;
     }
     .hero__body {
         margin-top: auto;
+        padding: 35px 35px 0;
         max-width: 100%;
         border-radius: 0;
         transform: translateY(0);
         box-shadow: 0 0 0 0;
+    }
+    .hero__item:not(:last-child) {
+        margin-bottom: 36px;
+    }
+    .hero__item:last-child {
+        border-bottom: 2px solid var(--indigo);
+    }
+    .hero-item__label.label {
+        padding-bottom: 36px;
     }
     .hero-item__title {
         font-size: 1.625rem;
@@ -43,15 +52,14 @@
     .container {
         padding: 0 15px;
     }
-    .hero .container {
-        padding-top: 60px;
+    .hero__narration {
+        padding: 48px 15px 80px;
     }
     .main-title {
         font-size: 3.25rem;
     }
     .hero__desc {
         font-size: 1.375rem;
-        mix-blend-mode: exclusion;
     }
     .hero__body {
         padding: 30px 30px 0;
@@ -59,8 +67,8 @@
     .hero__item:not(:last-child) {
         margin-bottom: 30px;
     }
-    .hero__item > .hero-item__label.label {
-        padding-bottom: 24px;
+    .hero-item__label.label {
+        padding-bottom: 30px;
     }
     .hero-item__title {
         font-size: 1.375rem;
