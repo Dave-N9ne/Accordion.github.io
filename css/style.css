@@ -1,14 +1,8 @@
 @font-face {
     font-family: Montserrat;
     src: local('Montserrat'), 
-         url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf') 
-         format('ttf');
-}
-@font-face {
-    font-family: Stolzl;
-    src: local('Stolzl'),
-         url('../fonts/Stolzl/stolzl_medium.otf')
-         format('otf');
+         url('../fonts/Montserrat/AnyConv.com__Montserrat-VariableFont_wght.woff2') 
+         format('woff2');
 }
 
 * {
