@@ -92,14 +92,12 @@ img {
     border-bottom: 2px solid var(--indigo);
 }
 .hero-item__label {
+    padding-bottom: 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     cursor: pointer;
-}
-.hero-item__label {
-    padding-bottom: 48px;
 }
 .hero-item__title {
     max-width: 790px;
