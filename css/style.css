@@ -135,11 +135,17 @@ img {
     margin-bottom: 48px;
     line-height: 1.5;
     color: #222;
+    opacity: 0;
+    transition: opacity 0.5s;
 }
 .hero-item__content {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.hero-item__label.active + 
+.hero-item__content .hero-item__desc {
+    opacity: 1;
 }
 .label.active .hero-item__plus::after {
     display: none;
